@@ -1,0 +1,66 @@
+.body-background{
+    background-image: url("https://previews.123rf.com/images/arybickii/arybickii1804/arybickii180400001/98793087-old-guitar-in-empty-room-music-background.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    min-width: 910px;
+}
+.header{
+    width: 100%;
+    margin-top: 0px;
+    font-size: 35px;
+    font-family: 'Aladin', cursive;
+}
+.player{
+    height: 100px;
+    width: 100px;
+}
+#player_1{
+    float: left;
+    margin-left: 20px;
+}
+#player_2{
+    float: right;
+    margin-right: 20px;
+}
+.music_icon{
+    height: 45px;
+    width: 35px;
+}
+.note{
+    font-family: 'Merriweather', serif;
+    color: rgb(37, 37, 37);
+    font-size: 15px;
+}
+.song_name{
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 20px;
+    box-shadow: 5px 5px 10px blue;
+}
+#song{
+    font-family: 'Merienda', cursive;
+    font-size: 20px;
+}
+.speaker-1, .speaker-2{
+    height: 75px;
+    width: 75px;
+    animation-name: beat;
+    animation-duration: .5s;
+    animation-iteration-count: infinite;
+    transform-origin: center;
+}
+@keyframes beat {
+    0% {transform: scale(1);}
+    50% {transform: scale(1.15);}
+    100% {transform: scale(1);}
+}
+.copyright-footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    color: white;
+    height: 50px;
+    font-size: 22px;
+    font-family: 'Inika', serif;
+}
